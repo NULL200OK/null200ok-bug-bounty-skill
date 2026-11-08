@@ -2,6 +2,8 @@
 
 > **One trigger word. One file. The complete offensive-security doctrine for your AI agent.**
 > Write `NULL200OK` in any session and your AI instantly becomes a disciplined bug-bounty hunter — no links, no re-reading, no wasted context.
+>
+> 🆕 **v1.1 (Nov 2026):** new **Field Intelligence** section — ~150 writeup/PoC distillations from 2024–2026 research across 16 vulnerability classes, including a **Rare & Exotic Arsenal** (request smuggling, cache deception, prototype pollution, XS-leaks, cookie-prefix bypasses, parser differentials, supply chain, and more).
 
 <p align="center">
   <img src="https://img.shields.io/badge/trigger-NULL200OK-critical?style=for-the-badge" alt="Trigger"/>
@@ -14,7 +16,7 @@
 
 ## 🧠 What is this?
 
-**NULL200OK** is a single, self-contained [`SKILL.md`](SKILL.md) (~56 KB, agent-ready format) that condenses the battle-tested methodology of **6 open-source offensive-security skill repositories** — 1,300+ skill files distilled into one dense doctrine your AI agent can load in seconds.
+**NULL200OK** is a single, self-contained [`SKILL.md`](SKILL.md) (~105 KB, agent-ready format) that condenses the battle-tested methodology of **6 open-source offensive-security skill repositories** — 1,300+ skill files distilled into one dense doctrine your AI agent can load in seconds.
 
 Instead of feeding your agent 6 repos every session, you load **one file** and activate it with one word:
 
@@ -72,6 +74,7 @@ NULL200OK
 | **Agent Doctrine (Strix)** | Counterevidence closure states, severity calibration, fix verification, family sweeps, scan modes |
 | **Red Team & Infra** | Entra ID, Okta, vCenter, enterprise VPN CVE matrix, cloud IAM escalation, supply-chain recon |
 | **Scope & Ethics** | Authorization-only discipline baked into the doctrine |
+| **Field Intelligence (v1.1)** | ~150 writeup/PoC distillations from 2024–2026 (244 primary-source links): IDOR/BAC, XSS/sanitizer bypasses, SSRF, SQLi/NoSQLi, RCE/deserialization, file upload, auth/OTP/OAuth, race conditions, business logic, cache/CORS/headers, GraphQL/REST/WebSocket, **Rare & Exotic Arsenal** (smuggling & desync, cache deception, prototype pollution, XS-leaks, CSP, cookie attacks, parser differentials, supply chain, DNS rebinding, file-format attacks), LLM/AI agents, Web3/Immunefi, mobile, modern API |
 
 ## 🤝 Compatibility
 
